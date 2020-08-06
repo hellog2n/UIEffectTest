@@ -18,6 +18,7 @@
 		587E20A524D91E290023C8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A324D91E290023C8A8 /* Main.storyboard */; };
 		587E20A724D91E2C0023C8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A624D91E2C0023C8A8 /* Assets.xcassets */; };
 		587E20AA24D91E2C0023C8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A824D91E2C0023C8A8 /* LaunchScreen.storyboard */; };
+		589FA7EE24DC64DF003F20E1 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FA7ED24DC64DF003F20E1 /* GradientViewController.swift */; };
 		B47F3CB2CFB59AE84CA3CA1F /* Pods_UXTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FAC8F1DE714ED35CAD1DAD /* Pods_UXTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		587E20A624D91E2C0023C8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587E20A924D91E2C0023C8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587E20AB24D91E2C0023C8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589FA7ED24DC64DF003F20E1 /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
 		C1248235A53A6756C19084B7 /* Pods-UXTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTestApp.release.xcconfig"; path = "Target Support Files/Pods-UXTestApp/Pods-UXTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				5820920424DB080F002A64D3 /* RippleButton.swift */,
 				5820920624DB1B80002A64D3 /* Nav1.swift */,
 				5820920824DB1B88002A64D3 /* Nav2.swift */,
+				589FA7ED24DC64DF003F20E1 /* GradientViewController.swift */,
 			);
 			path = UXTestApp;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				5853CEDE24DBAFB2002C4E0D /* StartViewController.swift in Sources */,
 				587E20A224D91E290023C8A8 /* ViewController.swift in Sources */,
 				5820920524DB080F002A64D3 /* RippleButton.swift in Sources */,
+				589FA7EE24DC64DF003F20E1 /* GradientViewController.swift in Sources */,
 				587E209E24D91E290023C8A8 /* AppDelegate.swift in Sources */,
 				587E20A024D91E290023C8A8 /* SceneDelegate.swift in Sources */,
 				5820920724DB1B80002A64D3 /* Nav1.swift in Sources */,
