@@ -16,24 +16,18 @@ class CustomTapGestureRecognizer: UITapGestureRecognizer {
 
 class RippleButton {
     
-    init(getButton: UIButton){
-       // super.init(frame: .zero)
-        getButton.layer.cornerRadius = 20.0;
-         let tap = CustomTapGestureRecognizer(target: self, action: #selector(tap(_:)))
-         tap.myButton = getButton
-         
-         getButton.layer.masksToBounds = true
-         
+
+  
+    
+    
+    func getTap(getButton: UIButton){
+       let tap = CustomTapGestureRecognizer(target: self, action: #selector(tap(_:)))
+       tap.myButton = getButton
+       
+    //    CustomTapGestureRecognizer(target: <#T##Any?#>, acㅇtion: <#T##Selector?#>)
+       getButton.layer.masksToBounds = true
         getButton.addGestureRecognizer(tap)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    
-    func getTap(){
-        
+       
     }
     
     

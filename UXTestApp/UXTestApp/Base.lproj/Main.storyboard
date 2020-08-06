@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -81,12 +81,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="boa-Qz-l7O"/>
                     <connections>
-                        <outlet property="myButton" destination="UDZ-9r-RnU" id="Ldw-8X-nKz"/>
+                        <outlet property="myButton" destination="UDZ-9r-RnU" id="fN6-DJ-QxY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2057" y="-63"/>
+            <point key="canvasLocation" x="2039" y="-62"/>
         </scene>
         <!--Nav2-->
         <scene sceneID="IAJ-Ef-0Mb">
@@ -101,7 +101,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="두번째버튼"/>
                                 <connections>
-                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ru-pK-Idl"/>
                                     <action selector="back:" destination="nWb-gy-fp9" eventType="touchUpInside" id="8lF-2E-fom"/>
                                 </connections>
                             </button>
@@ -118,9 +117,6 @@
                         <viewLayoutGuide key="safeArea" id="oLh-Rn-3lP"/>
                     </view>
                     <navigationItem key="navigationItem" id="tQr-f6-w40"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="yw3-TJ-aQD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vn6-KT-hXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
