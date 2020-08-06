@@ -3,22 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5820920524DB080F002A64D3 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820920424DB080F002A64D3 /* RippleButton.swift */; };
+		5820920724DB1B80002A64D3 /* Nav1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820920624DB1B80002A64D3 /* Nav1.swift */; };
+		5820920924DB1B88002A64D3 /* Nav2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820920824DB1B88002A64D3 /* Nav2.swift */; };
+		5853CEDE24DBAFB2002C4E0D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5853CEDD24DBAFB2002C4E0D /* StartViewController.swift */; };
+		5853CEE124DBBF75002C4E0D /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5853CEE024DBBF75002C4E0D /* Splash.storyboard */; };
 		587E209E24D91E290023C8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E209D24D91E290023C8A8 /* AppDelegate.swift */; };
 		587E20A024D91E290023C8A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E209F24D91E290023C8A8 /* SceneDelegate.swift */; };
 		587E20A224D91E290023C8A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E20A124D91E290023C8A8 /* ViewController.swift */; };
 		587E20A524D91E290023C8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A324D91E290023C8A8 /* Main.storyboard */; };
 		587E20A724D91E2C0023C8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A624D91E2C0023C8A8 /* Assets.xcassets */; };
 		587E20AA24D91E2C0023C8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E20A824D91E2C0023C8A8 /* LaunchScreen.storyboard */; };
-		6A1C815536DE1584E52B16B3 /* Pods_UXTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D4775AE0EEEB8F41ADB1F /* Pods_UXTestApp.framework */; };
+		B47F3CB2CFB59AE84CA3CA1F /* Pods_UXTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FAC8F1DE714ED35CAD1DAD /* Pods_UXTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		316CED4C57129E0122703577 /* Pods-UXTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTestApp.release.xcconfig"; path = "Target Support Files/Pods-UXTestApp/Pods-UXTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		4D3D4775AE0EEEB8F41ADB1F /* Pods_UXTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1898E7C11852A61508866547 /* Pods-UXTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTestApp.debug.xcconfig"; path = "Target Support Files/Pods-UXTestApp/Pods-UXTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		39FAC8F1DE714ED35CAD1DAD /* Pods_UXTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5820920424DB080F002A64D3 /* RippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
+		5820920624DB1B80002A64D3 /* Nav1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav1.swift; sourceTree = "<group>"; };
+		5820920824DB1B88002A64D3 /* Nav2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav2.swift; sourceTree = "<group>"; };
+		5853CEDD24DBAFB2002C4E0D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5853CEE024DBBF75002C4E0D /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		587E209A24D91E290023C8A8 /* UXTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587E209D24D91E290023C8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587E209F24D91E290023C8A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +37,7 @@
 		587E20A624D91E2C0023C8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587E20A924D91E2C0023C8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587E20AB24D91E2C0023C8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C00E17F4E5F00BB5AF0C9092 /* Pods-UXTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTestApp.debug.xcconfig"; path = "Target Support Files/Pods-UXTestApp/Pods-UXTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C1248235A53A6756C19084B7 /* Pods-UXTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTestApp.release.xcconfig"; path = "Target Support Files/Pods-UXTestApp/Pods-UXTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A1C815536DE1584E52B16B3 /* Pods_UXTestApp.framework in Frameworks */,
+				B47F3CB2CFB59AE84CA3CA1F /* Pods_UXTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15FFE984907FC07043088CCA /* Frameworks */ = {
+		35E162FBC1E033772B45211B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D3D4775AE0EEEB8F41ADB1F /* Pods_UXTestApp.framework */,
+				39FAC8F1DE714ED35CAD1DAD /* Pods_UXTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -53,11 +63,19 @@
 		54BCA98A30A8F88FA298C952 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C00E17F4E5F00BB5AF0C9092 /* Pods-UXTestApp.debug.xcconfig */,
-				316CED4C57129E0122703577 /* Pods-UXTestApp.release.xcconfig */,
+				1898E7C11852A61508866547 /* Pods-UXTestApp.debug.xcconfig */,
+				C1248235A53A6756C19084B7 /* Pods-UXTestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5853CEDF24DBBF5F002C4E0D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5853CEDD24DBAFB2002C4E0D /* StartViewController.swift */,
+				5853CEE024DBBF75002C4E0D /* Splash.storyboard */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		587E209124D91E290023C8A8 = {
@@ -66,7 +84,7 @@
 				587E209C24D91E290023C8A8 /* UXTestApp */,
 				587E209B24D91E290023C8A8 /* Products */,
 				54BCA98A30A8F88FA298C952 /* Pods */,
-				15FFE984907FC07043088CCA /* Frameworks */,
+				35E162FBC1E033772B45211B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +99,7 @@
 		587E209C24D91E290023C8A8 /* UXTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				5853CEDF24DBBF5F002C4E0D /* Splash */,
 				587E209D24D91E290023C8A8 /* AppDelegate.swift */,
 				587E209F24D91E290023C8A8 /* SceneDelegate.swift */,
 				587E20A124D91E290023C8A8 /* ViewController.swift */,
@@ -88,6 +107,9 @@
 				587E20A624D91E2C0023C8A8 /* Assets.xcassets */,
 				587E20A824D91E2C0023C8A8 /* LaunchScreen.storyboard */,
 				587E20AB24D91E2C0023C8A8 /* Info.plist */,
+				5820920424DB080F002A64D3 /* RippleButton.swift */,
+				5820920624DB1B80002A64D3 /* Nav1.swift */,
+				5820920824DB1B88002A64D3 /* Nav2.swift */,
 			);
 			path = UXTestApp;
 			sourceTree = "<group>";
@@ -99,11 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 587E20AE24D91E2C0023C8A8 /* Build configuration list for PBXNativeTarget "UXTestApp" */;
 			buildPhases = (
-				05D99C8AC1983DA5F45AFCAC /* [CP] Check Pods Manifest.lock */,
+				5E4C43CF99BC684205953179 /* [CP] Check Pods Manifest.lock */,
 				587E209624D91E290023C8A8 /* Sources */,
 				587E209724D91E290023C8A8 /* Frameworks */,
 				587E209824D91E290023C8A8 /* Resources */,
-				0DD2F8B4B007E336B24E6782 /* [CP] Embed Pods Frameworks */,
+				2839AA0FC3B8DE943888135E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,13 +177,31 @@
 				587E20AA24D91E2C0023C8A8 /* LaunchScreen.storyboard in Resources */,
 				587E20A724D91E2C0023C8A8 /* Assets.xcassets in Resources */,
 				587E20A524D91E290023C8A8 /* Main.storyboard in Resources */,
+				5853CEE124DBBF75002C4E0D /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05D99C8AC1983DA5F45AFCAC /* [CP] Check Pods Manifest.lock */ = {
+		2839AA0FC3B8DE943888135E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4C43CF99BC684205953179 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,23 +223,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0DD2F8B4B007E336B24E6782 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UXTestApp/Pods-UXTestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,9 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5820920924DB1B88002A64D3 /* Nav2.swift in Sources */,
+				5853CEDE24DBAFB2002C4E0D /* StartViewController.swift in Sources */,
 				587E20A224D91E290023C8A8 /* ViewController.swift in Sources */,
+				5820920524DB080F002A64D3 /* RippleButton.swift in Sources */,
 				587E209E24D91E290023C8A8 /* AppDelegate.swift in Sources */,
 				587E20A024D91E290023C8A8 /* SceneDelegate.swift in Sources */,
+				5820920724DB1B80002A64D3 /* Nav1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +378,7 @@
 		};
 		587E20AF24D91E2C0023C8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C00E17F4E5F00BB5AF0C9092 /* Pods-UXTestApp.debug.xcconfig */;
+			baseConfigurationReference = 1898E7C11852A61508866547 /* Pods-UXTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,7 +397,7 @@
 		};
 		587E20B024D91E2C0023C8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 316CED4C57129E0122703577 /* Pods-UXTestApp.release.xcconfig */;
+			baseConfigurationReference = C1248235A53A6756C19084B7 /* Pods-UXTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

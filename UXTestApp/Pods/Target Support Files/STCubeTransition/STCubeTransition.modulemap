@@ -1,0 +1,6 @@
+framework module STCubeTransition {
+  umbrella header "STCubeTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

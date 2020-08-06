@@ -6,5 +6,5 @@ target 'UXTestApp' do
   use_frameworks!
 
   # Pods for UXTestApp
-	pod 'MaterialComponents/Ripple'
+	pod 'STCubeTransition', '~> 1.4'
 end

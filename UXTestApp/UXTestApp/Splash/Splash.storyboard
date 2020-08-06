@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TIH-EM-M5b">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="Hhz-7e-v8c">
+            <objects>
+                <viewController id="TIH-EM-M5b" customClass="StartViewController" customModule="UXTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W05-6H-kSL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signUpBackground" translatesAutoresizingMaskIntoConstraints="NO" id="PNc-qx-gwv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVd-v4-nqG">
+                                <rect key="frame" x="87" y="137" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PNc-qx-gwv" secondAttribute="bottom" id="6Tj-Z7-bpt"/>
+                            <constraint firstItem="PNc-qx-gwv" firstAttribute="trailing" secondItem="W05-6H-kSL" secondAttribute="trailing" id="6oc-lL-eiA"/>
+                            <constraint firstItem="PNc-qx-gwv" firstAttribute="leading" secondItem="W05-6H-kSL" secondAttribute="leading" id="TNE-nW-5MO"/>
+                            <constraint firstItem="PNc-qx-gwv" firstAttribute="top" secondItem="W05-6H-kSL" secondAttribute="top" id="msC-AR-fho"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TLB-PL-Ffz"/>
+                    </view>
+                    <connections>
+                        <outlet property="faceView" destination="hVd-v4-nqG" id="vha-2g-ufW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zR6-do-cCC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170" y="60"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="signUpBackground" width="377" height="815"/>
+    </resources>
+</document>
